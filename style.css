@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color:darkred;
+    height: 250vh;
+    background-color: rgb(253, 221, 114);
+    border-left: 15px solid rgb(238, 198, 95);
+    border-right: 15px solid rgb(238, 198, 95);;
+    
+}
+
+header{
+    border-bottom: 15px solid rgb(238, 198, 95);
+    border-top: 15px solid rgb(238, 198, 95);
+}
+
+
+footer{
+    border-bottom: 15px solid rgb(238, 198, 95);
+    border-top: 15px solid rgb(238, 198, 95);
+}
+
+ul, ol{
+    list-style-position: inside;   
+}
+
+.boxg{
+    background-color: goldenrod;
+    width: 100%;
+}
+
+.tit1{
+    font-size: 3.5rem;
+    width: 50%;
+}
+
+
+.boxh{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+.boxh img{
+    border: 5px solid bisque;
+    border-radius: 30px;
+}
+
+.boxn{
+    display: flex;
+    background-color: darkgoldenrod;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+a{
+    color:white ;
+    margin: 0px 20px;
+    padding: 15px;
+    font-size: 1.5rem;
+    text-decoration-line: none;
+}
+
+
+.tit2{
+    background-color: darkgoldenrod;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column  ;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin: 50px 0px;
+    border-top: 15px solid rgb(231, 182, 58);
+    border-bottom: 15px solid rgb(231, 182, 58);
+
+}
+
+.tit2 img{
+    border: 5px solid bisque;
+    border-radius: 30px;
+
+}
+
+.tit3{
+    background-color: darkgoldenrod;
+    font-size: 1.25rem;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px;
+    border-top: 15px solid rgb(231, 182, 58);
+    border-bottom: 15px solid rgb(231, 182, 58);
+
+}
+
+.tit3 img{
+    border: 5px solid bisque;
+    border-radius: 30px;
+}
+
+.tit32{
+    height: 50px;
+    width: 250spx;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.lit{
+    width: 350px;
+    flex-direction: row;
+    align-content: center;
+    
+}
+
+.lit ul{
+    font-size: 1.25rem;
+}
+
+.tits3{
+    background-color: darkgoldenrod;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 15px solid rgb(231, 182, 58);
+    flex-wrap: wrap;
+
+}
+
+.tits3 img{
+    border: 5px solid bisque;
+    border-radius: 30px;
+}
+
+.tits33{
+
+    background-color: darkgoldenrod;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 15px solid rgb(231, 182, 58);
+    padding-bottom: 10px;
+}
+
+.tits3 ol{
+    font-size: 1.25rem;
+    width: 315px;
+    height: 689px;
+    margin-left: 15px;
+}
+
+.boxs4{
+    margin-top: 50px;
+    background-color: darkgoldenrod;
+    border-top: 15px solid rgb(231, 182, 58);
+    border-bottom: 15px solid rgb(231, 182, 58)
+
+}
+
+.tits4{
+    background-color: darkgoldenrod;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.minboxs4{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.minboxs4 img{
+    border: 5px solid bisque;
+    border-radius: 30px;
+}
+
+.minboxs4 dl{
+    font-size: 1.25rem;
+    width: 315px;
+    height: 689px;
+    margin-right: 15px;
+}
